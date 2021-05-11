@@ -1,0 +1,39 @@
+.all-page-container{
+    margin:15px auto;
+    width:90%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.PDFDocument{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.PDFPage{
+    box-shadow: 0 0 8px rgba(0,0,0,.5);
+}
+.PDFPageOne{
+    margin-bottom: 25px;
+}
+
+.PDFPage >canvas{
+    max-width: 100%;
+    height:auto !important;
+}
+
+/* media queries */
+@media only screen and (max-width:767px){
+    .all-page-container{
+        margin: 10px auto;
+        width:90%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .PDFPage >canvas{
+        max-width: 100%;
+        height:32rem !important;
+    }
+
+}

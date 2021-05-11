@@ -1,0 +1,7 @@
+{
+  "name": "IonicSideMenuApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
